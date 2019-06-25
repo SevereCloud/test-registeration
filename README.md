@@ -1,6 +1,7 @@
 # Регистрация
 
-[GitHub pages](https://severecloud.github.io/test-registration)
+~~[GitHub pages](https://severecloud.github.io/test-registration)~~
+*Валидатор телефона запрещает работать через https*
 
 ### Переменные окружения
 

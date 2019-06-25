@@ -124,7 +124,6 @@ import AppCheckBox from './components/AppCheckBox.vue';
 let minScore = process.env.MIN_SCORE;
 const tokenEmail = process.env.TOKEN_EMAIL;
 const tokenPhone = process.env.TOKEN_PHONE;
-console.log(tokenPhone);
 
 let controllerPhone = new AbortController();
 let controllerEmail = new AbortController();
