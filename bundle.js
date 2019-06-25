@@ -487,7 +487,6 @@
   var minScore = 0.5;
   var tokenEmail = '78af7a17b8f9eee803b58093c431365a';
   var tokenPhone = '8547f7cc4ea646352763e685b3481c0b';
-  console.log(tokenPhone);
 
   var controllerPhone = new AbortController();
   var controllerEmail = new AbortController();
@@ -663,7 +662,7 @@
     /* style */
     var __vue_inject_styles__$3 = function (inject) {
       if (!inject) { return }
-      inject("data-v-3ef336fa_0", { source: ".layout{display:flex;min-height:100vh}.body{width:650px;margin:auto;background:#fefefe;box-shadow:0 5px 20px rgba(0,0,0,.05);border-radius:10px}.header{background:#373737;box-shadow:0 5px 20px rgba(0,0,0,.05);border-radius:10px 10px 0 0;text-align:center;padding:34px;font-family:Roboto;font-style:normal;font-weight:700;font-size:36px;color:#fff}.content{padding:60px 100px}.right{display:flex;flex-direction:column;align-items:flex-end}", map: undefined, media: undefined });
+      inject("data-v-5a970f70_0", { source: ".layout{display:flex;min-height:100vh}.body{width:650px;margin:auto;background:#fefefe;box-shadow:0 5px 20px rgba(0,0,0,.05);border-radius:10px}.header{background:#373737;box-shadow:0 5px 20px rgba(0,0,0,.05);border-radius:10px 10px 0 0;text-align:center;padding:34px;font-family:Roboto;font-style:normal;font-weight:700;font-size:36px;color:#fff}.content{padding:60px 100px}.right{display:flex;flex-direction:column;align-items:flex-end}", map: undefined, media: undefined });
 
     };
     /* scoped */
