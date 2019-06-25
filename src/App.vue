@@ -221,7 +221,7 @@ export default {
       controllerPhone = new AbortController();
       const signal = controllerPhone.signal;
       fetch(
-        `http://apilayer.net/api/validate?access_key=${tokenPhone}&number=${this.phone}`,
+        `https://apilayer.net/api/validate?access_key=${tokenPhone}&number=${this.phone}`,
         {
           signal: signal,
         }
@@ -241,7 +241,7 @@ export default {
       controllerEmail = new AbortController();
       const signal = controllerEmail.signal;
       fetch(
-        `http://apilayer.net/api/check?access_key=${tokenEmail}&email=${this.email}`,
+        `https://apilayer.net/api/check?access_key=${tokenEmail}&email=${this.email}`,
         {
           signal: signal,
         }
