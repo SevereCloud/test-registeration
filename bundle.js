@@ -586,7 +586,7 @@
         controllerPhone = new AbortController();
         var signal = controllerPhone.signal;
         fetch(
-          ("http://apilayer.net/api/validate?access_key=" + tokenPhone + "&number=" + (this.phone)),
+          ("https://apilayer.net/api/validate?access_key=" + tokenPhone + "&number=" + (this.phone)),
           {
             signal: signal,
           }
@@ -608,7 +608,7 @@
         controllerEmail = new AbortController();
         var signal = controllerEmail.signal;
         fetch(
-          ("http://apilayer.net/api/check?access_key=" + tokenEmail + "&email=" + (this.email)),
+          ("https://apilayer.net/api/check?access_key=" + tokenEmail + "&email=" + (this.email)),
           {
             signal: signal,
           }
@@ -663,7 +663,7 @@
     /* style */
     var __vue_inject_styles__$3 = function (inject) {
       if (!inject) { return }
-      inject("data-v-69981fd6_0", { source: ".layout{display:flex;min-height:100vh}.body{width:650px;margin:auto;background:#fefefe;box-shadow:0 5px 20px rgba(0,0,0,.05);border-radius:10px}.header{background:#373737;box-shadow:0 5px 20px rgba(0,0,0,.05);border-radius:10px 10px 0 0;text-align:center;padding:34px;font-family:Roboto;font-style:normal;font-weight:700;font-size:36px;color:#fff}.content{padding:60px 100px}.right{display:flex;flex-direction:column;align-items:flex-end}", map: undefined, media: undefined });
+      inject("data-v-3ef336fa_0", { source: ".layout{display:flex;min-height:100vh}.body{width:650px;margin:auto;background:#fefefe;box-shadow:0 5px 20px rgba(0,0,0,.05);border-radius:10px}.header{background:#373737;box-shadow:0 5px 20px rgba(0,0,0,.05);border-radius:10px 10px 0 0;text-align:center;padding:34px;font-family:Roboto;font-style:normal;font-weight:700;font-size:36px;color:#fff}.content{padding:60px 100px}.right{display:flex;flex-direction:column;align-items:flex-end}", map: undefined, media: undefined });
 
     };
     /* scoped */
