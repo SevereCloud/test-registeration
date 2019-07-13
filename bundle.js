@@ -261,7 +261,7 @@
   /* script */
   var __vue_script__ = script;
   // For security concerns, we use only base name in production mode. See https://github.com/vuejs/rollup-plugin-vue/issues/258
-  script.__file = "/home/travis/build/SevereCloud/test-registeration/src/components/AppInput.vue";
+  script.__file = "/home/travis/build/SevereCloud/test-registration/src/components/AppInput.vue";
 
   /* template */
   var __vue_render__ = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"input"},[_c('div',{staticClass:"input-title"},[_c('div',[_vm._v("\n      "+_vm._s(_vm.title)+"\n    ")]),(_vm.help.length>0)?_c('div',{staticClass:"input-help"},[_c('div',{staticClass:"input-help-button"},[_vm._v("\n        ?\n      ")]),_c('div',{staticClass:"input-help-text"},[_vm._v(_vm._s(_vm.help))])]):_vm._e(),(_vm.bad.length>0)?_c('div',{staticClass:"input-bad"},[_vm._v("\n      "+_vm._s(_vm.bad)+"\n    ")]):_vm._e()]),_c('div',{staticClass:"input-content"},[_vm._t("default")],2)])};
@@ -270,7 +270,7 @@
     /* style */
     var __vue_inject_styles__ = function (inject) {
       if (!inject) { return }
-      inject("data-v-0664ecf6_0", { source: ".input-title{display:flex;align-items:baseline;font-size:24px;color:#b7b7b7;margin-bottom:13px}.input{margin-bottom:40px}.input-content input{width:100%;padding:14px 18px;background:#f7f7f7;border:1px solid #f5f5f5;box-sizing:border-box;border-radius:5px;font-size:18px;line-height:21px;color:#b7b7b7}.input-content input.notValid{border:1px solid red}.input-content input.valid{border:1px solid #00ff38}.input-help{position:relative;width:12px}.input-help-text{display:none;width:198px;position:absolute;bottom:20px;left:16px;padding:5px 17px;font-size:14px;line-height:19px;white-space:pre;color:#b200f0;background:#fefefe;box-shadow:0 4px 10px rgba(0,0,0,.05);border-radius:3px}.input-help-text::after{content:'';position:absolute;border:10px solid transparent;border-left:20px solid #fefefe;bottom:-10px;left:0}.input-help:hover .input-help-text{display:block}.input-help-button{position:absolute;width:11px;height:11px;margin-left:3px;bottom:0;border-radius:50%;border:1px solid #000;box-sizing:border-box;font-family:Roboto;font-style:normal;font-weight:900;font-size:6px;line-height:7px;text-align:center;user-select:none;color:#000}.input-bad{margin-left:7px;font-size:13px;line-height:15px;color:red}", map: undefined, media: undefined });
+      inject("data-v-03359be6_0", { source: ".input-title{display:flex;align-items:baseline;font-size:24px;color:#b7b7b7;margin-bottom:13px}.input{margin-bottom:40px}.input-content input{width:100%;padding:14px 18px;background:#f7f7f7;border:1px solid #f5f5f5;box-sizing:border-box;border-radius:5px;font-size:18px;line-height:21px;color:#b7b7b7}.input-content input.notValid{border:1px solid red}.input-content input.valid{border:1px solid #00ff38}.input-help{position:relative;width:12px}.input-help-text{display:none;width:198px;position:absolute;bottom:20px;left:16px;padding:5px 17px;font-size:14px;line-height:19px;white-space:pre;color:#b200f0;background:#fefefe;box-shadow:0 4px 10px rgba(0,0,0,.05);border-radius:3px}.input-help-text::after{content:'';position:absolute;border:10px solid transparent;border-left:20px solid #fefefe;bottom:-10px;left:0}.input-help:hover .input-help-text{display:block}.input-help-button{position:absolute;width:11px;height:11px;margin-left:3px;bottom:0;border-radius:50%;border:1px solid #000;box-sizing:border-box;font-family:Roboto;font-style:normal;font-weight:900;font-size:6px;line-height:7px;text-align:center;user-select:none;color:#000}.input-bad{margin-left:7px;font-size:13px;line-height:15px;color:red}", map: undefined, media: undefined });
 
     };
     /* scoped */
@@ -335,7 +335,7 @@
   /* script */
   var __vue_script__$1 = script$1;
   // For security concerns, we use only base name in production mode. See https://github.com/vuejs/rollup-plugin-vue/issues/258
-  script$1.__file = "/home/travis/build/SevereCloud/test-registeration/src/components/AppButton.vue";
+  script$1.__file = "/home/travis/build/SevereCloud/test-registration/src/components/AppButton.vue";
 
   /* template */
   var __vue_render__$1 = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"button",on:{"click":function($event){_vm.$emit('click');},"mouseover":function($event){_vm.$emit('mouseover');}}},[_vm._v("\n  "+_vm._s(_vm.title)+"\n")])};
@@ -344,7 +344,7 @@
     /* style */
     var __vue_inject_styles__$1 = function (inject) {
       if (!inject) { return }
-      inject("data-v-d59919b2_0", { source: ".button{padding:11px 73px;background:#0075ff;border:1px solid #f5f5f5;box-sizing:border-box;border-radius:5px;font-family:Roboto;font-style:normal;font-weight:400;font-size:24px;line-height:28px;color:#fff;cursor:pointer;user-select:none}.button:active{background:#0061cf}", map: undefined, media: undefined });
+      inject("data-v-4398ec30_0", { source: ".button{padding:11px 73px;background:#0075ff;border:1px solid #f5f5f5;box-sizing:border-box;border-radius:5px;font-family:Roboto;font-style:normal;font-weight:400;font-size:24px;line-height:28px;color:#fff;cursor:pointer;user-select:none}.button:active{background:#0061cf}", map: undefined, media: undefined });
 
     };
     /* scoped */
@@ -448,7 +448,7 @@
   /* script */
   var __vue_script__$2 = script$2;
   // For security concerns, we use only base name in production mode. See https://github.com/vuejs/rollup-plugin-vue/issues/258
-  script$2.__file = "/home/travis/build/SevereCloud/test-registeration/src/components/AppCheckBox.vue";
+  script$2.__file = "/home/travis/build/SevereCloud/test-registration/src/components/AppCheckBox.vue";
 
   /* template */
   var __vue_render__$2 = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',[_c('input',{directives:[{name:"model",rawName:"v-model",value:(_vm.proxyValue),expression:"proxyValue"}],attrs:{"id":"checkbox","type":"checkbox"},domProps:{"checked":Array.isArray(_vm.proxyValue)?_vm._i(_vm.proxyValue,null)>-1:(_vm.proxyValue)},on:{"change":function($event){var $$a=_vm.proxyValue,$$el=$event.target,$$c=$$el.checked?(true):(false);if(Array.isArray($$a)){var $$v=null,$$i=_vm._i($$a,$$v);if($$el.checked){$$i<0&&(_vm.proxyValue=$$a.concat([$$v]));}else{$$i>-1&&(_vm.proxyValue=$$a.slice(0,$$i).concat($$a.slice($$i+1)));}}else{_vm.proxyValue=$$c;}}}}),_c('label',{staticClass:"checkbox-text",attrs:{"for":"checkbox"}},[_vm._t("default")],2)])};
@@ -457,7 +457,7 @@
     /* style */
     var __vue_inject_styles__$2 = function (inject) {
       if (!inject) { return }
-      inject("data-v-758f17b4_0", { source: "#checkbox{position:absolute;z-index:-1;opacity:0}#checkbox+label{position:relative;padding:0 0 0 29px;cursor:pointer}#checkbox+label:before{content:'';position:absolute;top:1px;left:0;width:17px;height:17px;border:1px solid #000;transition:.2s}#checkbox+label:after{content:'';position:absolute;top:4px;left:3px;width:13px;height:13px}#checkbox:checked+label:after{background:#00ff38}.checkbox-text{font-family:Roboto;font-style:normal;font-weight:400;font-size:18px;line-height:21px;vertical-align:center;color:#b5b5b5}.checkbox-text a{color:#b200f0;text-decoration:none}.checkbox-text a:hover{color:#b200f0}.checkbox-text a:visited{color:#b200f0;text-decoration:none}", map: undefined, media: undefined });
+      inject("data-v-b03bd286_0", { source: "#checkbox{position:absolute;z-index:-1;opacity:0}#checkbox+label{position:relative;padding:0 0 0 29px;cursor:pointer}#checkbox+label:before{content:'';position:absolute;top:1px;left:0;width:17px;height:17px;border:1px solid #000;transition:.2s}#checkbox+label:after{content:'';position:absolute;top:4px;left:3px;width:13px;height:13px}#checkbox:checked+label:after{background:#00ff38}.checkbox-text{font-family:Roboto;font-style:normal;font-weight:400;font-size:18px;line-height:21px;vertical-align:center;color:#b5b5b5}.checkbox-text a{color:#b200f0;text-decoration:none}.checkbox-text a:hover{color:#b200f0}.checkbox-text a:visited{color:#b200f0;text-decoration:none}", map: undefined, media: undefined });
 
     };
     /* scoped */
@@ -641,7 +641,7 @@
   /* script */
   var __vue_script__$3 = script$3;
   // For security concerns, we use only base name in production mode. See https://github.com/vuejs/rollup-plugin-vue/issues/258
-  script$3.__file = "/home/travis/build/SevereCloud/test-registeration/src/App.vue";
+  script$3.__file = "/home/travis/build/SevereCloud/test-registration/src/App.vue";
 
   /* template */
   var __vue_render__$3 = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"layout",attrs:{"id":"app"}},[_c('div',{staticClass:"body"},[_c('div',{staticClass:"header"},[_vm._v("\n      РЕГИСТРАЦИЯ\n    ")]),_c('div',{staticClass:"content"},[_c('app-input',{attrs:{"title":"E-mail","bad":_vm.badEmail}},[_c('input',{directives:[{name:"model",rawName:"v-model",value:(_vm.email),expression:"email"}],class:{
@@ -662,7 +662,7 @@
     /* style */
     var __vue_inject_styles__$3 = function (inject) {
       if (!inject) { return }
-      inject("data-v-5a970f70_0", { source: ".layout{display:flex;min-height:100vh}.body{width:650px;margin:auto;background:#fefefe;box-shadow:0 5px 20px rgba(0,0,0,.05);border-radius:10px}.header{background:#373737;box-shadow:0 5px 20px rgba(0,0,0,.05);border-radius:10px 10px 0 0;text-align:center;padding:34px;font-family:Roboto;font-style:normal;font-weight:700;font-size:36px;color:#fff}.content{padding:60px 100px}.right{display:flex;flex-direction:column;align-items:flex-end}", map: undefined, media: undefined });
+      inject("data-v-ce9b9272_0", { source: ".layout{display:flex;min-height:100vh}.body{width:650px;margin:auto;background:#fefefe;box-shadow:0 5px 20px rgba(0,0,0,.05);border-radius:10px}.header{background:#373737;box-shadow:0 5px 20px rgba(0,0,0,.05);border-radius:10px 10px 0 0;text-align:center;padding:34px;font-family:Roboto;font-style:normal;font-weight:700;font-size:36px;color:#fff}.content{padding:60px 100px}.right{display:flex;flex-direction:column;align-items:flex-end}", map: undefined, media: undefined });
 
     };
     /* scoped */
